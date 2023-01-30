@@ -1,14 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Header } from './components/Header';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import { ToDoListPage } from "./pages/ToDoListPage";
+import { HomePage } from "./pages/HomePage/HomePage";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Header />
-        <img src={logo} className="App-logo" alt="logo" /> 
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage />}></Route>
+            <Route path="to-do-list" element={<ToDoListPage />}></Route>
+            <Route path="*" element={<NotFound />}></Route>
+          </Routes>
+        </BrowserRouter>
       </header>
     </div>
   );
