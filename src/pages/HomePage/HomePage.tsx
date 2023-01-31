@@ -1,7 +1,11 @@
+import "./index.css";
+
 export const HomePage = () => {
   return (
-    <header>
-      <h1>Home Page</h1>
-    </header>
+    <div className="container">
+      <h1>App Mix</h1>
+      <h2>Hi my name is</h2>
+      <h2>What my name is</h2>
+    </div>
   );
 };
