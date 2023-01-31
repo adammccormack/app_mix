@@ -4,10 +4,9 @@ export const ToDoListPage = () => {
   return (
     <>
       <header>
-        <h1>To Do List</h1>
+        <h1 className={styles.toDoListHeader}>To Do List</h1>
       </header>
       <div className={styles.toDoListContainer}>
-        {/* <h3 className="toDoListHeader">Items</h3> */}
         <div className={styles.taskForm}>
           <div className={styles.inputContainer}>
             <input

@@ -1,3 +1,7 @@
+.toDoListHeader {
+  margin-block-start: 3rem;
+}
+
 .toDoListContainer {
   display: flex;
   min-width: 32rem;
@@ -9,10 +13,6 @@
   border-radius: 0.5rem;
   justify-content: center;
   align-items: center;
-}
-
-.toDoListHeader {
-  text-align: left;
 }
 
 .taskForm {
