@@ -13,11 +13,8 @@ export const ToDoListPage = () => {
               id="firstname"
               className={styles.input}
               type="text"
-              placeholder=""
+              placeholder="Write Here"
             />
-            <label htmlFor="toDoListItem" className={styles.placeholder}>
-              Write Here
-            </label>
           </div>
           <button type="submit" className={styles.submit}>
             add
