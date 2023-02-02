@@ -7,7 +7,7 @@ export const ToDoListPage = () => {
   const [items, setItems] = useState([
     { id: 1, text: "Walk the dog", day: "Monday" },
     { id: 2, text: "Play Playstation", day: "Thursday" },
-    { id: 3, text: "Feed the cat", day: "Sunday" },
+    { id: 3, text: "Fix car", day: "Friday" },
   ]);
   return (
     <>
