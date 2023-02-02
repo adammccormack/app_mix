@@ -24,7 +24,7 @@ export const ToDoListPage = () => {
               placeholder="Write Here"
             />
           </div>
-          <button type="submit" className={styles.submit}>
+          <button type="submit" className={styles.add}>
             add
           </button>
           <Items items={items} />
