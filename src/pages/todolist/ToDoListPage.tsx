@@ -12,7 +12,7 @@ export const ToDoListPage = () => {
   return (
     <>
       <header>
-        <h1 className={styles.toDoListHeader}>To Do List</h1>
+        <h1>To Do List</h1>
       </header>
       <div className={styles.toDoListContainer}>
         <div className={styles.taskForm}>

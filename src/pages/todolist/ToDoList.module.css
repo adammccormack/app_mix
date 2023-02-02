@@ -1,7 +1,3 @@
-.toDoListHeader {
-  margin-block-start: 3rem;
-}
-
 .toDoListContainer {
   display: flex;
   min-width: 32rem;

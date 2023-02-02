@@ -23,6 +23,7 @@
   text-align: left;
   align-items: center;
   padding-inline-start: 20px;
+  margin-block-end: 5rem;
 }
 .navBarLink {
   margin-inline: 20px;
