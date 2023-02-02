@@ -9,6 +9,12 @@ export const ToDoListPage = () => {
     { id: 2, text: "Play Playstation", day: "Thursday" },
     { id: 3, text: "Fix car", day: "Friday" },
   ]);
+
+  // Delete Item
+  const deleteItem = (id: number) => {
+    console.log("HEY YOU DELETED THIS", id);
+  };
+
   return (
     <>
       <header>
@@ -27,7 +33,7 @@ export const ToDoListPage = () => {
           <button type="submit" className={styles.add}>
             add
           </button>
-          <Items items={items} />
+          <Items items={items} deleteItem={deleteItem} />
         </div>
       </div>
     </>
