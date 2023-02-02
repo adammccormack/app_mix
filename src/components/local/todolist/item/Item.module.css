@@ -1,6 +1,8 @@
 .item {
   background: #303245;
   margin-block-start: 0.5rem;
+  padding-inline-start: 1rem;
   cursor: pointer;
   border-radius: 8px;
+  text-align: left;
 }
