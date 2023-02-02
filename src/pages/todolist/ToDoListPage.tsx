@@ -1,7 +1,14 @@
+import { useState } from "react";
 import styles from "../todolist/ToDoList.module.css";
 import { Items } from "../../components/local/todolist/Items";
 
 export const ToDoListPage = () => {
+  // TODO: Move into store, then setup backend and setup Hook with Store
+  const [items, setItems] = useState([
+    { id: 1, text: "Walk the dog" },
+    { id: 2, text: "Play Playstation" },
+    { id: 3, text: "Feed the cat" },
+  ]);
   return (
     <>
       <header>
@@ -20,7 +27,7 @@ export const ToDoListPage = () => {
           <button type="submit" className={styles.submit}>
             add
           </button>
-          <Items />
+          <Items items={items} />
         </div>
       </div>
     </>
