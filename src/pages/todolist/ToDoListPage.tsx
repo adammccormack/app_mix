@@ -1,4 +1,5 @@
 import styles from "../todolist/ToDoList.module.css";
+import { Items } from "../../components/local/todolist/Items";
 
 export const ToDoListPage = () => {
   return (
@@ -19,7 +20,7 @@ export const ToDoListPage = () => {
           <button type="submit" className={styles.submit}>
             add
           </button>
-          <div className="listItems">List Item</div>
+          <Items />
         </div>
       </div>
     </>
