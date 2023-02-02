@@ -1,8 +1,10 @@
+import { Item } from "../item/Item";
+
 export const Items = ({ items }: any) => {
   return (
     <div>
       {items.map((item: any) => {
-        return <h4 key={item.id}>{item.text}</h4>;
+        return <Item key={item.id} item={item} />;
       })}
     </div>
   );

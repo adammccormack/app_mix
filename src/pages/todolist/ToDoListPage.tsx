@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "../todolist/ToDoList.module.css";
-import { Items } from "../../components/local/todolist/Items";
+import { Items } from "../../components/local/todolist/items/Items";
 
 export const ToDoListPage = () => {
   // TODO: Move into store, then setup backend and setup Hook with Store
